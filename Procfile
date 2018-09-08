@@ -1,1 +1,1 @@
-worker: python calculadora.py
+worker: python "calculadora.py"
