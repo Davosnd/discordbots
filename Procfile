@@ -1,1 +1,1 @@
-worker: python calculadora.py
+web: python C:\Users\Distrion\Desktop\calculadora\calculadora.py runserver 0.0.0.0:$PORT --noreload
