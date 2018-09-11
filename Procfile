@@ -1,1 +1,1 @@
-web: python Calculadora.py runserver 0.0.0.0:$PORT --noreload
+web: python Calculadora.py
