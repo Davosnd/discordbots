@@ -1,1 +1,1 @@
-web: python Calculadora.py
+worker python Calculadora.py
