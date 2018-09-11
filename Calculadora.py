@@ -16,6 +16,8 @@ async def on_message(message):
         await client.send_message(message.channel, 'Olá!')
     elif message.content.lower().startswith('?birl'):
         await client.send_message(message.channel, 'BIIIRLLLLL!')
+	elif message.content.lower().startswith('?game'):
+		await client.send_message(message.channel, ':)')
         
         
  
