@@ -1,2 +1,2 @@
-# discordbots
-Bot programming beginner
+# bots
+Bot test online
