@@ -7,15 +7,14 @@ client = discord.Client()
 async def on_ready():
     print('BOT ONLINE!')
     print(client.user.name)
-    print(client.user.id)
  
  
 @client.event
 async def on_message(message):
-    if message.content.lower().startswith('td certo?'):
-        await client.send_message(message.channel, 'de boas, na neve')
-    elif message.content.lower().startswith('?birl'):
-        await client.send_message(message.channel, 'BIIIRLLLLL!')
+    if message.content.lower().startswith('?oi'):
+        await client.send_message(message.channel, 'Olá!')
+    elif message.content.lower().startswith('?test'):
+        await client.send_message(message.channel, 'Ok!')
 
 client.run('NDg3NjI4NDc5MDIyNDk3ODE2.DnQm6Q.jbALvHH79kUnhQyO8b-81wu9t2c')
 
